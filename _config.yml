@@ -6,6 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Tuo
 middle_name: 
 last_name: Liu
+nickname: Terence # shown in parentheses after the first name on the about page
 email: tuo.liu@kaust.edu.sa
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Tuo Liu is a PhD student in Applied Mathematics at KAUST working on online learning,
