@@ -121,6 +121,13 @@ blockquote {
   }
 }
 
+@media (max-width: 575.98px) {
+  .profile {
+    text-align: center;
+    img { max-width: 60%; }
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
@@ -520,6 +527,9 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+      }
+      .col-sm-8 > .award {
+        color: var(--global-theme-color);
       }
       .author {
         a {

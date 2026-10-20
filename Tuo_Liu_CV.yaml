@@ -1,0 +1,402 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Tuo Liu
+  headline: "Research Interests: Online Learning, Uncertainty Quantification and Optimization"
+  location: Thuwal, Saudi Arabia
+  email: tuo.liu@kaust.edu.sa
+  # photo:
+  # phone:
+  # website: https://rendercv.com/
+  # social_networks:
+  #   - network: GitHub
+  #     username: rendercv
+  custom_connections:
+    - placeholder: Google Scholar
+      url: https://scholar.google.com/citations?user=IUnFMnAAAAAJ
+      fontawesome_icon: graduation-cap
+  sections:
+    # Welcome to RenderCV:
+    #   - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+    #   - See the [documentation](https://docs.rendercv.com) for more details.
+    education:
+      - institution: King Abdullah University of Science and Technology
+        area: Applied Mathematics
+        degree: PhD
+        date:
+        start_date: 2024-06
+        end_date: 2028-10
+        date_note: (expected)
+        location: Thuwal, Saudi Arabia
+        summary: 
+        highlights:
+          - 'Advisor: Prof. Francesco Orabona'
+      - institution: King Abdullah University of Science and Technology
+        area: Applied Mathematics
+        degree: MS
+        date:
+        start_date: 2022-08
+        end_date: 2024-06
+        location: Thuwal, Saudi Arabia
+        summary:
+        highlights:
+          - 'Thesis: Explicit Runge-Kutta Methods for Quadratic Optimization with Optimal Rates [[link](https://repository.kaust.edu.sa/items/b2d0ede1-0413-4311-8158-9fb4371f4369)]'
+          - 'Advisor: Prof. David Ketcheson'
+          - 'GPA: 3.88/4.00'
+      - institution: Southern University of Science and Technology (SUSTech)
+        area: Geophysics
+        degree: BS
+        date:
+        start_date: 2016-09
+        end_date: 2020-07
+        location: Shenzhen, China
+        summary:
+        highlights:
+          - 'Thesis: Imaging the Pacific and Philippine Sea Plates: A Finite Frequency Teleseismic Wave Tomography Model of Japan'
+          - 'Advisor: Prof. Wei Zhang'
+          - 'GPA: 3.76/4.00'
+    publications:
+      - title: A Black-Box Reduction from Regret to Multi-Level Coverage
+        authors:
+          - '*Tuo Liu*'
+          - Edgar Dobriban
+          - Francesco Orabona
+        summary:
+        # doi: 10.1234/neurips.2023.1234
+        journal: The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026) [[link](https://openreview.net/forum?id=FEc497vZlM)]
+      - title: Online Conformal Prediction via Universal Portfolio Algorithms
+        authors:
+          - '*Tuo Liu*'
+          - Edgar Dobriban
+          - Francesco Orabona
+        summary:
+        # doi: 10.1234/neurips.2023.1234
+        # url: https://arxiv.org/abs/2602.03168
+        journal: The Forty-Third International Conference on Machine Learning (ICML 2026), **Spotlight** (top 2.2%) [[link](https://openreview.net/forum?id=EKmiOtjZjI)]
+      - title: Dual Averaging Converges for Nonconvex Smooth Stochastic Optimization
+        authors:
+          - '*Tuo Liu*'
+          - El Mehdi Saad
+          - Wojciech Kotłowski
+          - Francesco Orabona
+        summary:
+        # doi: 10.1234/neurips.2022.5678
+        # url: https://openreview.net/forum?id=mHyCz0KHOu
+        journal: The Twenty-Ninth Annual Conference on Artificial Intelligence and Statistics (AISTATS 2026) [[link](https://openreview.net/forum?id=mHyCz0KHOu)]
+        # date: 2026-02
+    preprints:
+      - title: 'Monitoring for Shifts at Unknown Times: Parameter-Free Conditional Conformal Martingales'
+        authors:
+          - '*Tuo Liu*'
+          - Drew Prinster
+          - Francesco Orabona
+        summary:
+        # url: https://arxiv.org/abs/2610.17343
+        journal: In submission [[arxiv](https://arxiv.org/abs/2610.17343)]
+        # date: 2026-10
+      - title: Efficient Multi-Forecast Optimization of Ship Routing
+        authors:
+          - '*Tuo Liu*'
+          - Rihab Larayedh
+          - Ibrahim Hoteit
+          - David Ketcheson
+          - George Turkiyyah
+        summary:
+        # doi: 10.1234/icml.2022.9012
+        # url: https://drive.google.com/file/d/1jxtDHQfJpoFFxOugHKl9tuUguluVqz3y/view?usp=share_link
+        journal: In submission [[pdf](https://drive.google.com/file/d/1jxtDHQfJpoFFxOugHKl9tuUguluVqz3y/view?usp=share_link)]
+        # date: 2025-12
+      - title: Explicit Runge-Kutta Methods for Quadratic Optimization with Optimal Rates
+        authors:
+          - '*Tuo Liu*'
+          - David Ketcheson
+        summary:
+        # doi: 10.1234/iclr.2021.3456
+        # url: https://repository.kaust.edu.sa/items/b2d0ede1-0413-4311-8158-9fb4371f4369
+        journal: Preprint [[thesis](https://repository.kaust.edu.sa/items/b2d0ede1-0413-4311-8158-9fb4371f4369)]
+        # date: 2024-05
+    invited_talks:
+      - Explicit Runge-Kutta Methods for Quadratic Optimization with Optimal Rates, The 14th American Institute of Mathematical Sciences (AIMS) Conference (2024)
+    Research Experience:
+      - company: School of Data Science, The Chinese University of Hong Kong, Shenzhen
+        position: Research Intern
+        date:
+        start_date: 2026-05
+        end_date: 2026-08
+        location: Shenzhen, China
+        summary: 
+        highlights:
+          - "Host: Prof. Junchi Yang"
+          - "Research: Efficient algorithms for multi-objective optimization"
+      - company: School of Earth and Space Sciences, Peking University
+        position: Research Intern
+        date:
+        start_date: 2021-03
+        end_date: 2021-08
+        location: Beijing, China
+        summary: 
+        highlights:
+          - "Host: Prof. Xiaodong Song"
+          - "Research: Geophysical inverse problems"
+      - company: Berkeley Seismological Laboratory, UC Berkeley
+        position: Research Intern
+        date:
+        start_date: 2019-09
+        end_date: 2019-12
+        location: Berkeley, CA, USA
+        summary:
+        highlights:
+          - "Host: Prof. Richard Allen"
+          - "Research: Seismic traveltime tomography and large-scale sparse inversion"
+    Teaching Experience:
+      - company: King Abdullah University of Science and Technology
+        position: Teaching Assistant 
+        date:
+        start_date: 2025-09
+        end_date: 2025-12
+        # location: Thuwal, Saudi Arabia
+        summary: "CS 333: Online Learning"
+      - company: King Abdullah University of Science and Technology
+        position: Teaching Assistant 
+        date:
+        start_date: 2024-02
+        end_date: 2024-05
+        # location: Thuwal, Saudi Arabia
+        summary: "AMCS 252: Numerical Analysis of Differential Equations"
+      - company: Southern University of Science and Technology
+        position: Teaching Assistant
+        date:
+        start_date: 2017-12
+        end_date: 2018-06
+        # location: Thuwal, Saudi Arabia
+        summary: "MA 103b: Linear Algebra I"
+    Professional Services:
+      - company: AISTATS 2027
+        position: Reviewer
+        date: 2026
+        location: Montreal, Canada
+      - company: NeurIPS 2026
+        position: Reviewer
+        date: 2026
+        location: Sydney, Australia
+      - company: 1st Asia-Pacific Geophysics Student Conference
+        position: Organizing Committee
+        date:
+        start_date: 2019-11
+        end_date: 2020-09
+        location: Hefei, China
+      - company: SEG Student Chapter, SUSTech
+        position: President-elect
+        date:
+        start_date: 2019-04
+        end_date: 2020-07
+        location: Shenzhen, China
+        summary: Co-founded the certified Chapter of SEG at SUSTech with Prof. Wei Zhang. Initialized the officer elections and established the first organization of officers. Led all regular meetings and managed chapter operations. Coordinated seminars (mostly given by internal faculties) to give career advice on working with geophysics in both academia and industry.
+    selected_honors:
+      - bullet: SUSTech Department Head Scholarship for Overseas Studies (2019)
+      - bullet: SEG/Schlumberger Scholarship, Society of Exploration Geophysicists (2019)
+    skills:
+      - label: Programming
+        details: Python and MATLAB (proficient). Fortran, Unix, and Wolfram Mathematica (experienced)
+      - label: ML Frameworks
+        details: JAX, PyTorch
+      - label: Hobbies
+        details: Olympic weightlifting, powerlifting, drumming and cooking
+    # patents:
+    #   - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
+    #   - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
+    #   - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
+
+
+    # any_section_title:
+    #   - You can use any section title you want.
+    #   - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
+    #   - Markdown syntax is supported everywhere.
+    #   - The `design` field in YAML gives you control over almost any aspect of your CV design.
+    #   - See the [documentation](https://docs.rendercv.com) for more details.
+design:
+  theme: sb2nov
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+    # Same as the sb2nov default, plus an optional DATE_NOTE line (e.g. "(expected)")
+    # under the dates so long notes don't wrap mid-word.
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *DEGREE* *in* *AREA*
+        SUMMARY
+        HIGHLIGHTS
+      degree_column:
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+        *DATE_NOTE*
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+    experience_entry:
+      main_column: |-
+        **COMPANY**
+        *POSITION*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    # Undated publications render at full width via sb2nov/entries/PublicationEntry.j2.typ.
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        SUMMARY
+        AUTHORS
+        URL JOURNAL
+      date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-10-19'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []

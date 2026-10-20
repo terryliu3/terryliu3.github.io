@@ -1,84 +1,75 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{neurips = {The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS)}}
+@string{icml = {The Forty-Third International Conference on Machine Learning (ICML)}}
+@string{aistats = {The Twenty-Ninth Annual Conference on Artificial Intelligence and Statistics (AISTATS)}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@inproceedings{liu2026blackbox,
+  abbr = {NeurIPS},
+  title = {A Black-Box Reduction from Regret to Multi-Level Coverage},
+  author = {Liu, Tuo and Dobriban, Edgar and Orabona, Francesco},
+  booktitle = neurips,
+  year = {2026},
+  openreview = {https://openreview.net/forum?id=FEc497vZlM},
+  bibtex_show = {true},
+  selected = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{liu2026online,
+  abbr = {ICML},
+  title = {Online Conformal Prediction via Universal Portfolio Algorithms},
+  author = {Liu, Tuo and Dobriban, Edgar and Orabona, Francesco},
+  booktitle = icml,
+  year = {2026},
+  award = {Spotlight (top 2.2\%)},
+  abstract = {Online conformal prediction (OCP) seeks prediction intervals that achieve long-run 1−α coverage for arbitrary (possibly adversarial) data streams, while remaining as informative as possible. Existing OCP methods often require manual learning-rate tuning to work well, and may also require algorithm-specific analyses. Here, we develop a general regret-to-coverage theory for interval-valued OCP based on the (1−α)-pinball loss. Our first contribution is to identify linearized regret as a key notion, showing that controlling it implies coverage bounds for any online algorithm. This relies on a black-box reduction that depends only on the Fenchel conjugate of an upper bound on the linearized regret. Building on this theory, we propose UP-OCP, a parameter-free method for OCP, via a reduction to a two-asset portfolio selection problem, leveraging universal portfolio algorithms. We show strong finite-time bounds on the miscoverage of UP-OCP, even for polynomially growing predictions. Extensive experiments support that UP-OCP delivers consistently better size/coverage trade-offs than prior online conformal baselines.},
+  openreview = {https://openreview.net/forum?id=EKmiOtjZjI},
+  bibtex_show = {true},
+  selected = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{liu2026dual,
+  abbr = {AISTATS},
+  title = {Dual Averaging Converges for Nonconvex Smooth Stochastic Optimization},
+  author = {Liu, Tuo and Saad, El Mehdi and Kotłowski, Wojciech and Orabona, Francesco},
+  booktitle = aistats,
+  year = {2026},
+  abstract = {Dual averaging and gradient descent with their stochastic variants stand as the two canonical recipe books for first-order optimization: Every modern variant can be viewed as a descendant of one or the other. In the convex regime, these algorithms have been deeply studied, and we know that they are essentially equivalent in terms of theoretical guarantees. On the other hand, in the non-convex setting, the situation is drastically different: While we know that SGD can minimize the gradient of non-convex smooth functions, no finite-time complexity guarantee for Stochastic Dual Averaging (SDA) was known in the same setting. In this paper, we close this gap by a reduction that views SDA as SGD applied to a sequence of implicitly regularized objectives. We show that a tuned SDA exhibits a rate of convergence O(1/T + σ log T/√T), similar to that of SGD under the same assumptions. To our best knowledge, this is the first complete convergence theory for dual averaging on non-convex smooth stochastic problems without restrictive assumptions, closing a long-standing open problem in the field. Beyond the base algorithm, we also discuss ADA-DA, a variant that marries SDA with AdaGrad's auto-scaling, which achieves the same rate without requiring knowledge of the noise variance.},
+  openreview = {https://openreview.net/forum?id=mHyCz0KHOu},
+  bibtex_show = {true},
+  selected = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@misc{liu2026monitoring,
+  abbr = {arXiv},
+  title = {Monitoring for Shifts at Unknown Times: Parameter-Free Conditional Conformal Martingales},
+  author = {Liu, Tuo and Prinster, Drew and Orabona, Francesco},
+  howpublished = {arXiv preprint arXiv:2610.17343},
+  year = {2026},
+  note = {In submission},
+  abstract = {Conditional conformal test martingales provide sequential tests for detecting distribution shifts, using a fixed reference dataset to avoid contamination from test-time samples. Prior work used a penalized betting function via online optimization with smoothing, clipping, and other hyperparameters, which can adapt slowly when a shift occurs after a long stationary period. In this work, we introduce an approach that requires no hyperparameters and provably adapts quickly to shifts occurring at unknown times. Our key idea is to frame the penalized betting problem as portfolio selection in a three-asset market. Then, we use a restarting universal portfolio, with a heavy-tailed wealth allocation over time. We establish anytime false-alarm control and derive optimal finite-sample bounds on detection delay under detectable alternatives. We also develop an FFT-based implementation that computes the portfolio sequence over T rounds in O(T² ln T) time, instead of O(T³) of the naive implementation. Synthetic and real-world experiments suggest that the proposed approach adapts rapidly after long periods of null samples, with detection delays depending substantially less on shift time than prior baselines.},
+  arxiv = {2610.17343},
+  preprint = {true},
+  bibtex_show = {true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@unpublished{liu2025ship,
+  abbr = {Preprint},
+  title = {Efficient Multi-Forecast Optimization of Ship Routing},
+  author = {Liu, Tuo and Larayedh, Rihab and Hoteit, Ibrahim and Ketcheson, David and Turkiyyah, George},
+  year = {2025},
+  note = {In submission},
+  pdf = {https://drive.google.com/file/d/1jxtDHQfJpoFFxOugHKl9tuUguluVqz3y/view?usp=share_link},
+  preprint = {true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@misc{liu2024explicit,
+  abbr = {Preprint},
+  title = {Explicit Runge-Kutta Methods for Quadratic Optimization with Optimal Rates},
+  author = {Liu, Tuo and Ketcheson, David},
+  year = {2024},
+  note = {Preprint (based on MS thesis, KAUST)},
+  thesis = {https://repository.kaust.edu.sa/items/b2d0ede1-0413-4311-8158-9fb4371f4369},
+  preprint = {true}
 }
